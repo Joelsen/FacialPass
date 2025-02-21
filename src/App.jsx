@@ -12,7 +12,7 @@ import SignUp from "./pages/SignUp";
 import Onboarding from "./pages/Onboarding";
 import ParticlesReact from "./pages/ParticlesReact";
 import "./App.css";
-import { Student } from "./components/Student";
+import { Student } from "./pages/Student";
 
 const ProtectedRoute = ({ children }) => {
   const { isAuthenticated } = useAuth();
